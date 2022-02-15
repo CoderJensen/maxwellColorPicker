@@ -8,7 +8,47 @@
   </head>
   <body>
     <main>
+      <form>
+        <label for="red">Red</label>
+        <input id="red" name="red">
+        
+        <label for="green">Green</label>
+        <input id="green" name="green">
+        
+        <label for="blue">Blue</label>
+        <input id="blue" name="blue">
+        
+        
+        <!-- https://stackoverflow.com/a/22772518 -->
+        <button onclick="calculateMaxwell()" onsubmit="return false">Calculate</button> 
+        
+        
+        <p id="phoOutput">pho</p>
+        <p id="gammaOutput">gamma</p>
+        <p id="betaOutput">beta</p>
+        <p id="luminanceOutput">luminance</p>
+        
+        <p id="output"></p>
+      </form>
+
     
+      <!--
+      
+      <form>
+        <label for="">ρ (Red)</label>
+        <input type="value" min="0" max="255" id="pho" name="pho"></input>
+        
+        <label for="">ɣ (Green</label>
+        <input type="value" min="0" max="255" id="gamma" name="gamma"></input>
+        
+        <label for="">β (Blue)</label>
+        <input type="value" min="0" max="255" id="beta" name="beta"></input>
+        
+        <label for="">L (Luminance)</label>
+        <input type="value" min="0" max="1" id="luminance" name="luminance"></input>
+      </form>
+      
+      -->
     </main>
   </body>
 </html>
